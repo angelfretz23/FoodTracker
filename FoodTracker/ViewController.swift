@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     // MARK: UITextFieldDelegate
-	func textFieldShouldRetun(textField: UITextField) -> Bool {
+	func textFieldShouldReturn(textField: UITextField) -> Bool {
 		// Hide the keyboard.
 		textfield.resignFirstResponder()
 		return true
